@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+}
+
+.one {
+  background: linear-gradient(to top, green, blue);
+}
+.two {
+  background: linear-gradient(to left, red, orange, blue, purple, #f1f1f1);
+}
+.three {
+  background: linear-gradient(300deg, rgb(75, 75, 221), rgb(243, 87, 87));
+}
+
+.four {
+  background: linear-gradient(
+    to top left,
+    rgb(167, 96, 96),
+    rgb(128, 212, 128)
+  );
+}
+
+.five {
+  background: linear-gradient(rgb(239, 239, 124) 20%, rgb(234, 112, 234) 70%);
+}
+
+.six {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9));
+}
